@@ -51,6 +51,17 @@ Afin de résoudre ce souci, vous devez :
 2. Clonez ce dossier Repository sur votre machine locale (Mac), CMD (Windows), ou sur un outil GUI tel que SourceTree. 
 3. [Instructions spécifiques au cours] 
 
+## Démarrage rapide avec GitHub Models 
+[**Quickstart**](https://docs.github.com/fr/github-models/quickstart)
+
+* Un compte personnel GitHub - [Se connecter avec ses identifiants Github](https://github.com/login)
+* Une clé d’accès GitHub (Personal Access Token ou Fine-grained PAT)
+
+## Liens & Ressources
+- [Guide de Démarrage](https://docs.github.com/fr/github-models/quickstart)
+- [Playground](https://docs.github.com/fr/github-models/quickstart)
+- [Marketplace (Catalogue de modèles de langage)](https://github.com/marketplace/models)
+- [Référence API- Github Models](https://docs.github.com/fr/rest/models/inference?apiVersion=2022-11-28)
 
 ### Formateur
 
