@@ -30,19 +30,7 @@ client = OpenAI(
     },
 )
 
-messages = [
-    {
-        "role": "user",
-        "content": [
-            {
-                "type": "text",
-                "text": "INSERT_INPUT_HERE",
-            },
-        ],
-    },
-]
-
-
+messages = []
 
 def main():
     print(Style.BRIGHT + "//==============*****[GitHub Models]*****===============//" + Style.RESET_ALL)
@@ -63,8 +51,6 @@ def main():
         except Exception as e:
             print(e)
             continue
-        
     
-
 if __name__ == "__main__":
     main()
