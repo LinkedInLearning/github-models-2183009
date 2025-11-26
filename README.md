@@ -52,10 +52,24 @@ Afin de résoudre ce souci, vous devez :
 3. [Instructions spécifiques au cours] 
 
 ## Démarrage rapide avec GitHub Models 
-[**Quickstart**](https://docs.github.com/fr/github-models/quickstart)
 
-* Un compte personnel GitHub - [Se connecter avec ses identifiants Github](https://github.com/login)
-* Une clé d’accès GitHub (Personal Access Token ou Fine-grained PAT)
+#### Un compte personnel GitHub - [S'authentifier](https://github.com/login)
+#### Créer un *Personal Access Token* (PAT) ou Fine-grained PAT - [Developer Settings](https://github.com/settings/personal-access-tokens)
+#### Installer les modules et les SDK
+#### Lancer un appel API - [**Guide de Démarrage**](https://docs.github.com/fr/github-models/quickstart)
+
+```sh
+echo 'export GITHUB_TOKEN="your-secret-key"' >> ~/.bashrc
+source ~/.bashrc
+````
+
+```bash
+curl -s \
+  -X GET "https://models.github.ai/catalog/models" \
+  -H "Accept: application/vnd.github+json" \
+  -H "Authorization: Bearer $GITHUB_TOKEN" \
+| jq
+```
 
 ## Liens & Ressources
 - [Guide de Démarrage](https://docs.github.com/fr/github-models/quickstart)
