@@ -31,12 +31,12 @@ client = OpenAI(
 messages = [{
     "role": "system",
     "content": (
-        "tu es un professionnel du marketing inspiré par des idées créatives et originales, créer des slogans courts, percutants et publicitaires, avec un style fluide et impactant. Suivre précisément les instructions données, s'il y en a."
+        "You are a specialist in translating from French to English. Translate the provided word into the target language and include an example sentence demonstrating its use in context. If specific instructions are provided, ensure they are followed accurately."
     ),
 }]
 
 def main():
-    print(Style.BRIGHT + "//==============*****Générateur de Slogans*****===============//" + Style.RESET_ALL)
+    print(Style.BRIGHT + "//==============*****Assistant et Traducteur 🇫🇷/🇬🇧*****===============//" + Style.RESET_ALL)
     print(Fore.CYAN +  "\n-Taper votre question\n–Taper 'quit' pour sortir.\n" + Style.RESET_ALL)
      
     while True:

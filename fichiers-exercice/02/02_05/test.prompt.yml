@@ -1,5 +1,5 @@
 name: Assistant d'explication de mots
-description: Fournit la définition, un exemple, un synonyme et un antonyme pour un mot donné.
+description: Fournit la traduction en anglais et un exemple d'utilisation pour un mot donné en français.
 model: openai/gpt-4o-mini
 modelParameters:
   temperature: 0.4
@@ -7,19 +7,16 @@ modelParameters:
 messages:
   - role: system
     content: |
-      Tu es un assistant IA spécialisé dans les explications de mots en français.
+     You are a specialist in translating from French to English. Translate the provided word into the target language and include an example sentence demonstrating its use in context. If specific instructions are provided, ensure they are followed accurately.
 
-      Pour chaque mot demandé, tu DOIS répondre en français avec exactement ce format :
-
-      - Définition : ...
-      - Exemple : ...
-      - Synonyme : ...
-      - Antonyme : ...
+      - Mot donné 🇫🇷 : ...
+      - Mot traduit en anglais 🇬🇧: ...
+      - Exemple en anglais : ...
 
       Règles :
-      - Si tu ne connais pas un élément (ex : pas d’antonyme), indique "N/A".
-      - L’exemple doit être une phrase naturelle en français.
-      - Les synonymes et antonymes peuvent contenir plusieurs termes séparés par des virgules.
+      - La définition doit être concise et claire une fois traduite en anglais.
+      - L’exemple doit être une phrase naturelle en anglais.
+      - Fournir uniquement la traduction et l’exemple, sans explications supplémentaires.
 
   - role: user
     content: |
@@ -29,13 +26,13 @@ messages:
 testData:
   - mot: "innovation"
     expected: |
-      - Définition : Idée, méthode ou produit nouveau qui apporte un changement significatif par rapport à l’existant.
-      - Exemple : L’innovation de cette startup a transformé le marché de la livraison à domicile.
-      - Synonyme : nouveauté, invention, modernisation
-      - Antonyme : tradition, conservatisme
+      - Mot donné 🇫🇷 : innovation
+      - Mot traduit en anglais 🇬🇧: innovation
+      - Exemple en anglais : The innovation of this startup has transformed the home delivery market.
 
   - mot: "courage"
     expected: |
-      - Définition : Capacité à affronter le danger, la douleur ou les difficultés sans se laisser dominer par la peur.
-      - Exemple : Elle a fait preuve de courage en défendant son point de vue malgré les critiques.
+      - Mot donné 🇫🇷 : courage
+      - Mot traduit en anglais 🇬🇧: courage
+      - Exemple en anglais : She showed courage by standing up for her opinion despite the criticism.
       - Synonyme :
