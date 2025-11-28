@@ -1,6 +1,6 @@
-# Découvrir Les modèles Github 
+# Découvrir GitHub Models 
 
-Ce dossier repository est lié au cours `Découvrir Les modèles Github`. Le cours entier est disponible sur [LinkedIn Learning][lil-course-url].
+Ce dossier repository est lié au cours `Découvrir GitHub Models`. Le cours entier est disponible sur [LinkedIn Learning][lil-course-url].
 
 ![Nom final de la formation][lil-thumbnail-url] 
 
