@@ -1,6 +1,6 @@
 # Découvrir Les Modèles Github 
 
-Ce dossier Repository est lié au cours `Découvrir Les Modèles Github`. Le cours entier est disponible sur [LinkedIn Learning][lil-course-url].
+Ce dossier repository est lié au cours `Découvrir Les Modèles Github`. Le cours entier est disponible sur [LinkedIn Learning][lil-course-url].
 
 ![Nom final de la formation][lil-thumbnail-url] 
 
@@ -19,7 +19,7 @@ La meilleure façon d'apprendre un langage est de l'utiliser dans la pratique. C
 Ce cours est intégré à GitHub Codespaces, un environnement de développement instantané « dans le nuage » qui offre toutes les fonctionnalités de votre IDE préféré sans nécessiter de configuration sur une machine locale. Avec Codespaces, vous pouvez vous exercer à partir de n'importe quelle machine, à tout moment, tout en utilisant un outil que vous êtes susceptible de rencontrer sur votre lieu de travail.  
 Chaque épisode de la série Level Up offre au moins 12 occasions de s'exercer à la programmation à différents niveaux de difficulté, afin que vous puissiez vous mettre au défi et renforcer ce que vous avez appris. Consultez la vidéo "Utiliser Codespaces sur GitHub" pour savoir comment mettre en place un espace de code.  
 
-DESCRIPTION DE LA FORMATION
+Guidé par Sandy Ludosky, ce cours permet de découvrir comment exploiter la puissance des modèles d’IA directement depuis GitHub. À travers des démonstrations concrètes, vous apprendrez à utiliser le catalogue de modèles (OpenAI, Meta, Mistral…), à tester leurs performances dans le Playground, à rédiger des prompts efficaces et à effectuer des appels API. Vous intégrerez ensuite ces modèles dans votre environnement de développement pour créer vos propres applications et assistants IA. Accessible aux débutants, cette formation allie clarté et bonnes pratiques pour une utilisation responsable de l’intelligence artificielle.
 
 ## Instructions
 
