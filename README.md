@@ -2,9 +2,7 @@
 
 Ce dossier Repository est lié au cours `Découvrir Les Modèles Github`. Le cours entier est disponible sur [LinkedIn Learning][lil-course-url].
 
-![Nom final de la formation][lil-thumbnail-url] 
-
-[Practice It: X | All Other [Project Mojo] Courses] 
+![Découvrir Les Modèles Github][lil-thumbnail-url] 
 
 DESCRIPTION DE LA FORMATION
 
@@ -34,9 +32,10 @@ Afin de résoudre ce souci, vous devez :
 ## Installation
 
 1. Pour utiliser ces fichiers d’exercice, vous avez besoin de : 
-   - [Liste des logiciels/dépendances utiles à la formation] 
+   * [Visual Studio Code](https://code.visualstudio.com/)
+   * [Git - version control system](https://git-scm.com/)
 2. Clonez ce dossier Repository sur votre machine locale (Mac), CMD (Windows), ou sur un outil GUI tel que SourceTree. 
-3. [Instructions spécifiques au cours] 
+
 
 ## Démarrage rapide avec GitHub Models 
 [**Quickstart**](https://docs.github.com/fr/github-models/quickstart)
