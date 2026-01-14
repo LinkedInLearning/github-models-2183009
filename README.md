@@ -1,14 +1,14 @@
-# Découvrir Les Modèles Github 
+# Découvrir GitHub Models
 
-Ce dossier Repository est lié au cours `Découvrir Les Modèles Github`. Le cours entier est disponible sur [LinkedIn Learning][lil-course-url].
+Ce dossier repository est lié au cours `Découvrir GitHub Models`. Le cours entier est disponible sur [LinkedIn Learning][lil-course-url].
 
 ![Découvrir Les Modèles Github][lil-thumbnail-url] 
 
-DESCRIPTION DE LA FORMATION
+Guidé par Sandy Ludosky, ce cours permet de découvrir comment exploiter la puissance des modèles d’IA directement depuis GitHub. À travers des démonstrations concrètes, vous apprendrez à utiliser le catalogue de modèles (OpenAI, Meta, Mistral…), à tester leurs performances dans le Playground, à rédiger des prompts efficaces et à effectuer des appels API. Vous intégrerez ensuite ces modèles dans votre environnement de développement pour créer vos propres applications et assistants IA. Accessible aux débutants, cette formation allie clarté et bonnes pratiques pour une utilisation responsable de l’intelligence artificielle.
 
 ## Instructions
 
-Ce dossier Repository a des branches pour chacune des vidéos du cours. Vous pouvez utiliser le menu des Branches sur GitHub afin d’accéder aux passages qui vous intéressent. Vous pouvez également rajouter `/tree/BRANCH_NAME` à l’URL afin d’accéder à la branche qui vous intéresse. 
+Ce dossier repository a des branches pour chacune des vidéos du cours. Vous pouvez utiliser le menu des Branches sur GitHub afin d’accéder aux passages qui vous intéressent. Vous pouvez également rajouter `/tree/BRANCH_NAME` à l’URL afin d’accéder à la branche qui vous intéresse. 
 
 ## Branches
 
@@ -28,25 +28,23 @@ Afin de résoudre ce souci, vous devez :
 	Rajouter les changements au git en utilisant la commande : git add .
 	Enregistrer les changements avec la commande : git commit -m "message de votre choix"
 
-
 ## Installation
 
 1. Pour utiliser ces fichiers d’exercice, vous avez besoin de : 
    * [Visual Studio Code](https://code.visualstudio.com/)
    * [Git - version control system](https://git-scm.com/)
-2. Clonez ce dossier Repository sur votre machine locale (Mac), CMD (Windows), ou sur un outil GUI tel que SourceTree. 
-
+2. Clonez ce dossier repository sur votre machine locale (Mac), CMD (Windows), ou sur un outil GUI tel que SourceTree
 
 ## Démarrage rapide avec GitHub Models 
 [**Quickstart**](https://docs.github.com/fr/github-models/quickstart)
 
-* Un compte personnel GitHub - [Se connecter avec ses identifiants Github](https://github.com/login)
+* Un compte personnel GitHub - [Se connecter avec ses identifiants GitHub](https://github.com/login)
 * Une clé d’accès GitHub (Personal Access Token ou Fine-grained PAT)
 
-## Liens & Ressources
-- [Guide de Démarrage](https://docs.github.com/fr/github-models/quickstart)
+## Liens & ressources
+- [Guide de démarrage](https://docs.github.com/fr/github-models/quickstart)
 - [Playground](https://docs.github.com/fr/github-models/quickstart)
-- [Marketplace (Catalogue de modèles de langage)](https://github.com/marketplace/models)
+- [Marketplace (catalogue de modèles de langage)](https://github.com/marketplace/models)
 - [Référence API- Github Models](https://docs.github.com/fr/rest/models/inference?apiVersion=2022-11-28)
 
 ### Formateur
